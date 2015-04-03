@@ -10,11 +10,20 @@
 		369BBB191ACCA8B500D3B004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB181ACCA8B500D3B004 /* main.m */; };
 		369BBB1C1ACCA8B500D3B004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB1B1ACCA8B500D3B004 /* AppDelegate.m */; };
 		369BBB1F1ACCA8B500D3B004 /* BookClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB1D1ACCA8B500D3B004 /* BookClub.xcdatamodeld */; };
-		369BBB221ACCA8B500D3B004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB211ACCA8B500D3B004 /* ViewController.m */; };
+		369BBB221ACCA8B500D3B004 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB211ACCA8B500D3B004 /* FriendsViewController.m */; };
 		369BBB251ACCA8B500D3B004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369BBB231ACCA8B500D3B004 /* Main.storyboard */; };
 		369BBB271ACCA8B500D3B004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369BBB261ACCA8B500D3B004 /* Images.xcassets */; };
 		369BBB2A1ACCA8B500D3B004 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369BBB281ACCA8B500D3B004 /* LaunchScreen.xib */; };
 		369BBB361ACCA8B500D3B004 /* BookClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB351ACCA8B500D3B004 /* BookClubTests.m */; };
+		369BBB411ACCB2C700D3B004 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB401ACCB2C700D3B004 /* Reader.m */; };
+		369BBB441ACCB2C800D3B004 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB431ACCB2C800D3B004 /* Friend.m */; };
+		369BBB4A1ACCB2C800D3B004 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB491ACCB2C800D3B004 /* Comment.m */; };
+		369BBB4D1ACCB60000D3B004 /* ReadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB4C1ACCB60000D3B004 /* ReadersViewController.m */; };
+		369BBB501ACCB62A00D3B004 /* ReadersDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB4F1ACCB62A00D3B004 /* ReadersDownloader.m */; };
+		369BBB531ACD134600D3B004 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369BBB521ACD134600D3B004 /* ProfileViewController.m */; };
+		36CA04661ACD18B500B484BF /* FilloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA04651ACD18B500B484BF /* FilloutViewController.m */; };
+		36CA04691ACD22F000B484BF /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA04681ACD22F000B484BF /* BookViewController.m */; };
+		36CA046C1ACD99B300B484BF /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CA046B1ACD99B300B484BF /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +43,32 @@
 		369BBB1A1ACCA8B500D3B004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		369BBB1B1ACCA8B500D3B004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		369BBB1E1ACCA8B500D3B004 /* BookClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClub.xcdatamodel; sourceTree = "<group>"; };
-		369BBB201ACCA8B500D3B004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		369BBB211ACCA8B500D3B004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		369BBB201ACCA8B500D3B004 /* FriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		369BBB211ACCA8B500D3B004 /* FriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		369BBB241ACCA8B500D3B004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		369BBB261ACCA8B500D3B004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		369BBB291ACCA8B500D3B004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		369BBB2F1ACCA8B500D3B004 /* BookClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369BBB341ACCA8B500D3B004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		369BBB351ACCA8B500D3B004 /* BookClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubTests.m; sourceTree = "<group>"; };
+		369BBB3F1ACCB2C700D3B004 /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		369BBB401ACCB2C700D3B004 /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
+		369BBB421ACCB2C800D3B004 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		369BBB431ACCB2C800D3B004 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		369BBB481ACCB2C800D3B004 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		369BBB491ACCB2C800D3B004 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		369BBB4B1ACCB60000D3B004 /* ReadersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadersViewController.h; sourceTree = "<group>"; };
+		369BBB4C1ACCB60000D3B004 /* ReadersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadersViewController.m; sourceTree = "<group>"; };
+		369BBB4E1ACCB62A00D3B004 /* ReadersDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadersDownloader.h; sourceTree = "<group>"; };
+		369BBB4F1ACCB62A00D3B004 /* ReadersDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadersDownloader.m; sourceTree = "<group>"; };
+		369BBB511ACD134600D3B004 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		369BBB521ACD134600D3B004 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		36CA04641ACD18B500B484BF /* FilloutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilloutViewController.h; sourceTree = "<group>"; };
+		36CA04651ACD18B500B484BF /* FilloutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilloutViewController.m; sourceTree = "<group>"; };
+		36CA04671ACD22F000B484BF /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		36CA04681ACD22F000B484BF /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		36CA046A1ACD99B300B484BF /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		36CA046B1ACD99B300B484BF /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +112,30 @@
 			children = (
 				369BBB1A1ACCA8B500D3B004 /* AppDelegate.h */,
 				369BBB1B1ACCA8B500D3B004 /* AppDelegate.m */,
-				369BBB201ACCA8B500D3B004 /* ViewController.h */,
-				369BBB211ACCA8B500D3B004 /* ViewController.m */,
+				369BBB201ACCA8B500D3B004 /* FriendsViewController.h */,
+				369BBB211ACCA8B500D3B004 /* FriendsViewController.m */,
+				369BBB4B1ACCB60000D3B004 /* ReadersViewController.h */,
+				369BBB4C1ACCB60000D3B004 /* ReadersViewController.m */,
+				369BBB4E1ACCB62A00D3B004 /* ReadersDownloader.h */,
+				369BBB4F1ACCB62A00D3B004 /* ReadersDownloader.m */,
 				369BBB231ACCA8B500D3B004 /* Main.storyboard */,
+				36CA04671ACD22F000B484BF /* BookViewController.h */,
+				36CA04681ACD22F000B484BF /* BookViewController.m */,
+				36CA04641ACD18B500B484BF /* FilloutViewController.h */,
+				36CA04651ACD18B500B484BF /* FilloutViewController.m */,
+				369BBB511ACD134600D3B004 /* ProfileViewController.h */,
+				369BBB521ACD134600D3B004 /* ProfileViewController.m */,
 				369BBB261ACCA8B500D3B004 /* Images.xcassets */,
 				369BBB281ACCA8B500D3B004 /* LaunchScreen.xib */,
 				369BBB1D1ACCA8B500D3B004 /* BookClub.xcdatamodeld */,
+				36CA046A1ACD99B300B484BF /* Book.h */,
+				36CA046B1ACD99B300B484BF /* Book.m */,
+				369BBB481ACCB2C800D3B004 /* Comment.h */,
+				369BBB491ACCB2C800D3B004 /* Comment.m */,
+				369BBB421ACCB2C800D3B004 /* Friend.h */,
+				369BBB431ACCB2C800D3B004 /* Friend.m */,
+				369BBB3F1ACCB2C700D3B004 /* Reader.h */,
+				369BBB401ACCB2C700D3B004 /* Reader.m */,
 				369BBB161ACCA8B500D3B004 /* Supporting Files */,
 			);
 			path = BookClub;
@@ -222,10 +267,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CA046C1ACD99B300B484BF /* Book.m in Sources */,
+				36CA04661ACD18B500B484BF /* FilloutViewController.m in Sources */,
 				369BBB1C1ACCA8B500D3B004 /* AppDelegate.m in Sources */,
+				369BBB4D1ACCB60000D3B004 /* ReadersViewController.m in Sources */,
 				369BBB1F1ACCA8B500D3B004 /* BookClub.xcdatamodeld in Sources */,
-				369BBB221ACCA8B500D3B004 /* ViewController.m in Sources */,
+				369BBB501ACCB62A00D3B004 /* ReadersDownloader.m in Sources */,
+				36CA04691ACD22F000B484BF /* BookViewController.m in Sources */,
+				369BBB221ACCA8B500D3B004 /* FriendsViewController.m in Sources */,
+				369BBB441ACCB2C800D3B004 /* Friend.m in Sources */,
 				369BBB191ACCA8B500D3B004 /* main.m in Sources */,
+				369BBB531ACD134600D3B004 /* ProfileViewController.m in Sources */,
+				369BBB411ACCB2C700D3B004 /* Reader.m in Sources */,
+				369BBB4A1ACCB2C800D3B004 /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +472,7 @@
 				369BBB3B1ACCA8B500D3B004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369BBB3C1ACCA8B500D3B004 /* Build configuration list for PBXNativeTarget "BookClubTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				369BBB3E1ACCA8B500D3B004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProfileViewController.h
 //  BookClub
 //
 //  Created by zhenduo zhu on 4/1/15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Friend.h"
 
-@interface ViewController : UIViewController
+@interface ProfileViewController : UIViewController
 
+@property (nonatomic) Friend *friend;
 
 @end
-
